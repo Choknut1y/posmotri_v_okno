@@ -49,6 +49,14 @@ ol {
   height: auto;
 }
 
+.content__list::-webkit-scrollbar {
+  inline-size: 5px;
+}
+
+.content__list::-webkit-scrollbar-thumb {
+  background-color: #545050;
+}
+
 .search-form {
   width: 711px;
   display: flex;
@@ -306,5 +314,7 @@ a.content__card-link {
 }
 
 .more-button {
-  width: 386px;
+  width: 391px;
+  margin-block-end: 2px;
+  margin-inline-start: 2px;
 }
