@@ -147,7 +147,17 @@ ol {
   outline: 1px solid white;
 }
 
+.search-form__label:hover:not(:only-of-type) {
+  text-decoration: underline;
+}
+
+.search-form__textfield:active {
+  outline: none;
+  border: none;
+}
+
 .content__list {
+  width: 399px;
   height: 298px;
   overflow: auto;
   position: relative;
